@@ -1,0 +1,24 @@
+{
+  "name": "pert-estimate",
+  "version": "1.0.0",
+  "description": "Calculates estimate(s) based on the PERT method by using \"most likely time\", \"optimistic time\", and \"pessimistic time\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexxars/pert-estimate.git"
+  },
+  "keywords": [
+    "pert",
+    "estimate",
+    "tasks"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/pert-estimate/issues"
+  },
+  "homepage": "https://github.com/rexxars/pert-estimate"
+}
