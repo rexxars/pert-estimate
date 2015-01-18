@@ -4,7 +4,10 @@
   "description": "Calculates estimate(s) based on the PERT method by using \"most likely time\", \"optimistic time\", and \"pessimistic time\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "coverage": "istanbul cover tape -- test/**/*.test.js",
+    "lint": "jshint .",
+    "test": "tape test/**/*.test.js",
+    "pretest": "npm run lint"
   },
   "repository": {
     "type": "git",
