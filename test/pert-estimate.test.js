@@ -6,7 +6,7 @@ var pert = require('../');
 test('it gives the correct expected duration', function testDuration(t) {
     var estimate = pert.expectedDuration(1, 5, 9);
 
-    t.equal(estimate, 30, 'µ=(1+(4*5)+9)/6 should be 30');
+    t.equal(estimate, 5, 'µ=(1+(4*5)+9)/6 should be 5');
     t.end();
 });
 
