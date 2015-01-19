@@ -1,11 +1,11 @@
 language: node_js
 node_js:
-  - '0.11'
-  - '0.10'
+  - "0.11"
+  - "0.10"
 script:
   - npm run coverage
 after_script:
-  - npm install codeclimate-test-reporter && cat coverage/lcov.info | codeclimate
+  - "npm install codeclimate-test-reporter && cat coverage/lcov.info | codeclimate"
 env:
   global:
-    - secure: "UomXCF2ZpVMKG/wDt2qErAhWltdmz5TeeJFiYs/O6THJTlsn0Kh+E12lEWMQcrzUph0W8i5kZGmKSSBjLLDM/22FVSwjzeJivaoZCkhrL4BC0KUzlqw0G7LqaxQmZQ9qQU9NFevt3J195wAqD/77bOx2ixp8/tCD1oes1vG02oc="
+    - secure: l6hWHV63LQCkRcV3sVHgnl8Az9Yv7bfGyoObA83DMB8n/53UJqwqYHeSMEJMBDTJSqcCo+KrObTFNac4inQOkIZSqsS9UPB+i7Cve9xz3tkTnvtB/zZf7WgsliCUP5/0S4HRxF6YjAiLNNnoSGJ2FjhIORPYCYieB2duFkzEFPw=
