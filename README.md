@@ -1,5 +1,7 @@
 # pert-estimate
 
+[![Version npm](http://img.shields.io/npm/v/pert-estimate.svg?style=flat-square)](http://browsenpm.org/package/pert-estimate)[![Build Status](http://img.shields.io/travis/rexxars/pert-estimate/master.svg?style=flat-square)](https://travis-ci.org/rexxars/pert-estimate)[![Coverage Status](http://img.shields.io/codeclimate/coverage/github/rexxars/pert-estimate.svg?style=flat-square)](https://codeclimate.com/github/rexxars/pert-estimate)[![Code Climate](http://img.shields.io/codeclimate/github/rexxars/pert-estimate.svg?style=flat-square)](https://codeclimate.com/github/rexxars/pert-estimate/)
+
 Calculate estimate(s) based on the PERT method by using "most likely time", "optimistic time", and "pessimistic time".
 
 # Installation
